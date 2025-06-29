@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credential Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Credential Manager</h1>
+    
+    <form id="credForm">
+      <input type="text" id="service" placeholder="Service Name" required>
+      <input type="text" id="username" placeholder="User ID" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Save</button>
+    </form>
+
+    <h2>Saved Credentials</h2>
+    <ul id="credList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
